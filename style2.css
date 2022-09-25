@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+section{
+    width: 500px;
+    height: 200px;
+    margin: 200px auto;
+}
+h1{
+    display: inline;
+    position: relative;
+    font-size: 5em;
+    color: #222;
+}
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #fff;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #fff;
+    animation: animate 8s linear infinite;
+    filter: drop-shadow(0 0 20px #fff);
+}
+@keyframes animate {
+    0%,10%,100%{
+        width: 0; 
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
