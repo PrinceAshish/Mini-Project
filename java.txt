@@ -1,0 +1,51 @@
+hello world
+int sum
+float sum
+two Strings
+input 
+
+public class Main{
+	public static void main(String args[]){
+		System.out.println("Hello World");
+	}
+}
+
+public class Main{
+	public static void main(String args[]){
+		int a,b,c;
+		a=10;
+		b=20;
+		c=a+b;
+		System.out.println(c);
+	}
+}
+
+public class Main{
+	public static void main(String args[]){
+		String Fname = "Ashish";
+		String Lname = "Devashi";
+		System.out.println(Fname+" "+Lname);
+	}
+}
+
+public class Main{
+	public static void main(String args[]){
+		float a,b,c;
+		a=10.23;
+		b=20.56;
+		c=a+b;		
+		System.out.println("The Total is : "+c);
+	}
+}
+
+public class Main{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter First Number :");
+		int a = sc.nextInt();
+		System.out.println("Enter Second Number :");
+		int b = sc.nextInt();
+		int c = a+b;
+		System.out.println("Your Total is : "+c);				
+	}
+}
